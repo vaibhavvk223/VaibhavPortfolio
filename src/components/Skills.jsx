@@ -189,8 +189,8 @@ const Skills = () =>
                                 {
                                     return (
                                         <Col className="mx-auto fs-5" key={i}>
-                                            <Card id='scard' className='card-component rounded rounded-3 my-4 mx-auto' style={{width: '185px', height: '256px', background: 'rgba(20, 20, 47, 0.2)', boxShadow: '0px 0px 4.7px  white'}}>
-                                                <Card.Img id='image' variant="top" src={e.src} className="card-image mx-auto my-4 " style={{ width: '128px', height: '128px', cursor: 'pointer'}} />
+                                            <Card id='scard' className='card-component rounded rounded-3 my-4 mx-auto' style={{width: '185px', height: '256px', cursor: 'pointer', background: 'rgba(20, 20, 47, 0.2)', boxShadow: '0px 0px 4.7px  white'}}>
+                                                <Card.Img id='image' variant="top" src={e.src} className="card-image mx-auto my-4 " style={{ width: '128px', height: '128px'}} />
                                                 <Card.Body>
                                                     <Card.Text id='text' className="card-text mx-auto text-white">{e.name}</Card.Text>
                                                 </Card.Body>
