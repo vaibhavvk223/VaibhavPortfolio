@@ -153,10 +153,10 @@ const Skills = () =>
                                 {
                                     return (
                                         <Col ref={ref} style={{ opacity: isInView ? 1 : 0,
-                                            transition: '1.3s', cursor: 'pointer'
+                                            transition: '1.3s'
                                          }} className="mx-auto fs-4" key={i}>
                                             <Card id="tcard" className='my-4 mx-auto rounded rounded-3' style={{width: '164px', background: 'rgba(20, 20, 47, 0.2)', boxShadow: '0px 0px 4.7px  white' }}>
-                                                <Card.Img id='image' variant="top" src={e.src} className="mx-auto my-4" style={{ width: '128px', height: '128px'}} />
+                                                <Card.Img id='image' variant="top" src={e.src} className="mx-auto my-4" style={{ width: '128px', height: '128px', cursor: 'pointer'}} />
                                                 <Card.Body className="fs-4">
                                                     <Card.Text id='text' style={{width: '134px'}} className="mx-auto text-white">{e.name}</Card.Text>
                                                 </Card.Body>
@@ -172,7 +172,7 @@ const Skills = () =>
                             </Row>
                             <Row>
                                 <Row ref={ref} style={{ opacity: isInView ? 1 : 0,
-           transition: '1.3s', cursor: 'pointer'
+           transition: '1.3s'
         }} className="pt-5 ms-1 mt-4 ">
                                 <motion.div
                                     
@@ -190,7 +190,7 @@ const Skills = () =>
                                     return (
                                         <Col className="mx-auto fs-5" key={i}>
                                             <Card id='scard' className='card-component rounded rounded-3 my-4 mx-auto' style={{width: '185px', height: '256px', background: 'rgba(20, 20, 47, 0.2)', boxShadow: '0px 0px 4.7px  white'}}>
-                                                <Card.Img id='image' variant="top" src={e.src} className="card-image mx-auto my-4 " style={{ width: '128px', height: '128px'}} />
+                                                <Card.Img id='image' variant="top" src={e.src} className="card-image mx-auto my-4 " style={{ width: '128px', height: '128px', cursor: 'pointer'}} />
                                                 <Card.Body>
                                                     <Card.Text id='text' className="card-text mx-auto text-white">{e.name}</Card.Text>
                                                 </Card.Body>
